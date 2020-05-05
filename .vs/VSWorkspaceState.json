@@ -6,6 +6,6 @@
     "\\src\\app\\header",
     "\\src\\app\\header\\navbar"
   ],
-  "SelectedNode": "\\src\\index.html",
+  "SelectedNode": "\\src\\app\\header\\navbar\\navbar.component.html",
   "PreviewInSolutionExplorer": false
 }

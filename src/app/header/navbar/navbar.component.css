@@ -10,15 +10,19 @@
 }
 
 .carousel-caption h5 {
+    
+    
     font-size: 45px;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 25px;
     font-family: 'Merienda', cursive;
     color: #000;
+    
   }
 
 .carousel-caption p {
+    
     width: 60%;
     margin: auto;
     font-size: 18px;
@@ -92,17 +96,61 @@
     height: 100vh;
 }
 
+
+@media only screen and (max-width: 1199px) {
+  .carousel-caption h5 {
+    font-size: 45px;
+  }
+
+  .carousel-caption p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  
+
+  .carousel-caption h5 {
+    font-size: 32px;
+  }
+
+  .carousel-caption p {
+    font-size: 25px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
-    .navbar-nav.ml-auto {
-        background: rgba(0, 0, 0, 0.5);
+  .navbar-nav.ml-auto {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .navbar-toggler {
+    padding: 1px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .carousel-caption {
+      padding-top: 25px;
+  }
+
+    .carousel-caption h5 {
+      padding-top: 25px;
+      font-size: 32px;
     }
 
-    .navbar-toggler {
-        padding: 1px;
-        font-size: 18px;
-        line-height: 0.3;
-        background: #fff;
+  .carousel-caption p {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 300px) {
+    .carousel-caption {
+      display: none;
     }
+  }
 }
 
 

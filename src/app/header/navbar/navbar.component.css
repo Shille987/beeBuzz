@@ -1,28 +1,24 @@
 .carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    background-size: cover;
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
 }
 
 .carousel-caption {
-    bottom: 220px;
+  bottom: 220px;
 }
 
-.carousel-caption h5 {
-    
-    
+  .carousel-caption h5 {
     font-size: 45px;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 25px;
     font-family: 'Merienda', cursive;
     color: #000;
-    
   }
 
-.carousel-caption p {
-    
+  .carousel-caption p {
     width: 60%;
     margin: auto;
     font-size: 18px;
@@ -31,13 +27,13 @@
     color: #202040;
   }
 
-.carousel-caption a {
-      text-transform:uppercase;
-      background: #262626;
-      padding: 10px 30px;
-      display:inline-block;
-      margin-top: 15px;
-      color: #fff;
+  .carousel-caption a {
+    text-transform: uppercase;
+    background: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
   }
 
 
@@ -48,14 +44,14 @@
   font-weight: bold;
 }
 
-.navbar-nav a:hover{
-    color:black;
+  .navbar-nav a:hover {
+    color: black;
     transition: .9s;
   }
 
-  .navbar-nav  a:after {
+  .navbar-nav a:after {
     content: '';
-    position:absolute;
+    position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%) scaleX(0);
@@ -67,33 +63,32 @@
     background-color: forestgreen;
     -webkit-transition: transform 250ms;
     transition: transform 250ms;
-    
   }
-  .navbar-nav  a:hover:after {
+
+  .navbar-nav a:hover:after {
     -webkit-transform: translateX(-50%) scaleX(1);
     transform: translateX(-50%) scaleX(1);
   }
 
-    .navbar-light .navbar-brand {
-      color: #fff;
-      font-size: 25px;
-      font-weight: bold;
-      letter-spacing: 2px;
-    }
+.navbar-light .navbar-brand {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
 
 
 .navbar-nav {
   text-align: center;
   position: relative;
-  
 }
 
 .nav-link {
-    padding: .2rem 1rem;
+  padding: .2rem 1rem;
 }
 
 .w-100 {
-    height: 100vh;
+  height: 100vh;
 }
 
 
@@ -108,7 +103,7 @@
 }
 
 @media only screen and (max-width: 991px) {
-  
+
 
   .carousel-caption h5 {
     font-size: 32px;
@@ -134,7 +129,7 @@
 
 @media only screen and (max-width: 575px) {
   .carousel-caption {
-      padding-top: 25px;
+    padding-top: 25px;
   }
 
     .carousel-caption h5 {
@@ -142,9 +137,9 @@
       font-size: 32px;
     }
 
-  .carousel-caption p {
-    font-size: 20px;
-  }
+    .carousel-caption p {
+      font-size: 20px;
+    }
 
   @media screen and (max-width: 300px) {
     .carousel-caption {
@@ -152,5 +147,3 @@
     }
   }
 }
-
-

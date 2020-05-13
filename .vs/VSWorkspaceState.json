@@ -3,9 +3,11 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\header",
-    "\\src\\app\\header\\navbar"
+    "\\src\\app\\header\\navbar",
+    "\\src\\app\\section",
+    "\\src\\app\\section\\footer",
+    "\\src\\app\\section\\social-btn"
   ],
-  "SelectedNode": "\\src\\app\\header\\navbar\\navbar.component.html",
+  "SelectedNode": "\\src\\app\\app.component.css",
   "PreviewInSolutionExplorer": false
 }
